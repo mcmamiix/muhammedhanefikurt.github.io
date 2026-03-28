@@ -1,43 +1,60 @@
-/* Sayfanın genel arka plan rengi */
+/* Genel sayfa ayarları */
 body {
   background-color: #ffffff;
   font-family: Arial, sans-serif;
   text-align: center;
 }
+/* Arka plan resmi ekleme */
+body {
+  background-image: url("arka-plan.jpg"); /* kendi resmini buraya koy */
+  background-repeat: no-repeat;           /* tekrar etmesin */
+  background-size: cover;                 /* ekranı kaplasın */
+  background-position: center;            /* ortalansın */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 
-/* Logo için boşluk */
-img {
-  margin-top: 40px;
+/* Ana container */
+.container {
+  margin-top: 50px;
+}
+
+/* Logo */
+.logo {
   margin-bottom: 20px;
 }
 
 /* Arama kutusu */
-input[type="text"] {
+.search-box {
   width: 400px;
   padding: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #999;
 }
 
 /* Butonlar */
-input[type="submit"] {
+.btn {
   margin: 5px;
   padding: 5px 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #999;
   background-color: #f2f2f2;
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+.btn:hover {
   background-color: #e6e6e6;
 }
 
 /* Alt linkler */
-p a {
+.links {
+  margin-top: 20px;
+}
+
+.links a {
   color: #0000cc;
   text-decoration: none;
   margin: 0 10px;
 }
 
-p a:hover {
+.links a:hover {
   text-decoration: underline;
 }
