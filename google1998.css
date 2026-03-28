@@ -1,0 +1,43 @@
+/* Sayfanın genel arka plan rengi */
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Logo için boşluk */
+img {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Arama kutusu */
+input[type="text"] {
+  width: 400px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Butonlar */
+input[type="submit"] {
+  margin: 5px;
+  padding: 5px 15px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #e6e6e6;
+}
+
+/* Alt linkler */
+p a {
+  color: #0000cc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
